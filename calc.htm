@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<meta name="author" content="Lyndon">
+	<meta name="description" content="Calculator App">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="icon" type="image/x-icon" href=""/>
+</head>
+
+<body>
+	<header></header>
+	<main>
+        
+        <div class="calc">
+            <div id="calcDisplay"></div>
+            <section>
+                <div class="numbers">
+                    <button id="9" onclick="writeToDisplayNumber(9)">9</button>
+                    <button id="8" onclick="writeToDisplayNumber(8)">8</button>
+                    <button id="7" onclick="writeToDisplayNumber(7)">7</button>
+                    <button id="6" onclick="writeToDisplayNumber(6)">6</button>
+                    <button id="5" onclick="writeToDisplayNumber(5)">5</button>
+                    <button id="4" onclick="writeToDisplayNumber(4)">4</button>
+                    <button id="3" onclick="writeToDisplayNumber(3)">3</button>
+                    <button id="2" onclick="writeToDisplayNumber(2)">2</button>
+                    <button id="1" onclick="writeToDisplayNumber(1)">1</button>
+                    <button id="0" onclick="writeToDisplayNumber(0)">0</button>
+                </div>
+            </section>
+            <section>
+                <div class="operators">
+                    <button id="plus" onclick="writeToDisplayOperator(' + ')">+</button>
+                    <button id="minus" onclick="writeToDisplayOperator(' - ')">-</button>
+                    <button id="divide" onclick="writeToDisplayOperator(' / ')">/</button>
+                    <button id="multiply" onclick="writeToDisplayOperator(' * ')">*</button>
+                    <div class="equals">
+                        <button id="equals" onclick="result()">=</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+	<footer></footer>
+	<script src="Javascript/calc.js"></script>
+</body>
+
+</html>
