@@ -19,28 +19,29 @@
             <div id="calcDisplay"></div>
             <section>
                 <div class="numbers">
-                    <button id="9" onclick="writeToDisplayNumber(9)">9</button>
-                    <button id="8" onclick="writeToDisplayNumber(8)">8</button>
-                    <button id="7" onclick="writeToDisplayNumber(7)">7</button>
-                    <button id="6" onclick="writeToDisplayNumber(6)">6</button>
-                    <button id="5" onclick="writeToDisplayNumber(5)">5</button>
-                    <button id="4" onclick="writeToDisplayNumber(4)">4</button>
-                    <button id="3" onclick="writeToDisplayNumber(3)">3</button>
-                    <button id="2" onclick="writeToDisplayNumber(2)">2</button>
-                    <button id="1" onclick="writeToDisplayNumber(1)">1</button>
-                    <button id="0" onclick="writeToDisplayNumber(0)">0</button>
+                    <button id="9" onclick="writeToDisplay(9)">9</button>
+                    <button id="8" onclick="writeToDisplay(8)">8</button>
+                    <button id="7" onclick="writeToDisplay(7)">7</button>
+                    <button id="6" onclick="writeToDisplay(6)">6</button>
+                    <button id="5" onclick="writeToDisplay(5)">5</button>
+                    <button id="4" onclick="writeToDisplay(4)">4</button>
+                    <button id="3" onclick="writeToDisplay(3)">3</button>
+                    <button id="2" onclick="writeToDisplay(2)">2</button>
+                    <button id="1" onclick="writeToDisplay(1)">1</button>
+                    <button id="0" onclick="writeToDisplay(0)">0</button>
                 </div>
             </section>
             <section>
                 <div class="operators">
-                    <button id="plus" onclick="writeToDisplayOperator(' + ')">+</button>
-                    <button id="minus" onclick="writeToDisplayOperator(' - ')">-</button>
-                    <button id="divide" onclick="writeToDisplayOperator(' / ')">/</button>
-                    <button id="multiply" onclick="writeToDisplayOperator(' * ')">*</button>
+                    <button id="plus" onclick="writeToDisplay(' + ')">+</button>
+                    <button id="minus" onclick="writeToDisplay(' - ')">-</button>
+                    <button id="divide" onclick="writeToDisplay(' / ')">/</button>
+                    <button id="multiply" onclick="writeToDisplay(' * ')">*</button>
                     <div class="equals">
                         <button id="equals" onclick="result()">=</button>
                     </div>
                 </div>
+                <button id="reset" onclick="reset()">Reset</button>
             </section>
         </div>
     </main>

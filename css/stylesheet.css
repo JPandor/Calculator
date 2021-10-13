@@ -29,6 +29,7 @@ body{
     width: 100px;
     height: 100px;
     margin: 3px;
+    font-size: large;
 }
 
 .operators{
@@ -42,6 +43,7 @@ body{
     height: 100px;
     display: inline-block;
     margin: 3px;
+    font-size: large;
 }
 
 .equals{
@@ -55,10 +57,18 @@ body{
    transform: translate(-110px, -106px);
    background-color: rgb(77, 77, 241);
    color: white;
+   font-size: large;
 }
 
 button:hover {
     background-color: black;
     color: white;
     transition: 0.5s ease-in;
+}
+
+#reset {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    left: 100px;
 }
